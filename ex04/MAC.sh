@@ -1,0 +1,1 @@
+ifconfig | grep -e 'ether ' | rev | cut -c2-18 | rev
